@@ -1,0 +1,93 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+     Socialize</title>
+  <link rel="stylesheet" type="text/css" href="/public/CSS/index.css">
+  
+</head>
+
+<body >
+  <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-database.js"></script>
+  <script src="/public/JavaScript/firebase.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="/public/JavaScript/index.js"></script>
+  <!--nav bar started-->
+
+<!--nav bar ended -->
+
+
+<div class="wholebody">
+
+<div class="leftofmiddle">
+<ul>
+    
+    <img src="/public/images/logo.png" class="logoimage" alt="image not found"></img>
+
+  <li><a href="#">Home</a></li>
+  <li><a href="messages.html">Messages</a></li>
+  <li><a href="friends.html">Friends</a></li>
+
+  <div class="dropdown" >
+   
+    <button class="dropbtn">Setting</button>
+  
+  <div class="dropdown-content">
+    <button id="logout" onclick="logoutButton()">Logout</button>
+  </div>
+  <!--dropdown ended -->
+  </div>
+</ul>
+
+</div>
+
+
+
+<!--middleofmidde started -->
+<div class="middeofmiddle">
+<div class="top">
+  <div class="topp">
+<div class="left">Welcome! <span id="user_id"></span></div>
+</div>
+
+<div class="bottom">
+
+<div class="left1"> 
+<textarea  id="inputbox" class="inputbox" type="text" name="search" placeholder="Write a post..." autocomplete="off"></textarea>
+
+</div>
+<div class="right">
+<button class="addpostBtn" onclick="addpost()">+(Add Post)</button>
+</div> 
+</div>
+
+</div>
+<div class="rightsidecontent">
+<div class="posts" id="posts">
+<table>
+<tbody id="postul">
+
+</tbody>
+
+
+</table>
+    
+</div>
+</div>
+<!--middle of middle ended -->
+</div>
+
+
+
+</div>
+
+
+
+</body>
+
+</html>

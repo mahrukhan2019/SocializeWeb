@@ -1,0 +1,81 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Messages</title>
+  <link rel="stylesheet" type="text/css" href="/public/CSS//generalmessages.css">
+
+
+</head>
+
+<body>
+
+  <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-database.js"></script>
+  <script src="/public/JavaScript/firebase.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="/public/JavaScript/generalmessage.js"></script>
+
+
+
+  <div class="wholebody">
+    <!--Left of body -->
+    <div class="leftofmiddle">
+      <ul>
+        <img src="/public/images/logo.png" class="logoimage" alt="image not found"></img>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="messages.html">Messages</a></li>
+        <li><a href="friends.html">Friends</a></li>
+        <div class="dropdown">
+            <button class="dropbtn">Setting</button>
+    
+            <div class="dropdown-content">
+              <button id="logout" onclick="logoutButton()">Logout</button>
+            </div>
+            <!--dropdown ended -->
+          </div>
+
+      </ul>
+    </div>
+    <!--Left of body end -->
+
+    <!--right of body -->
+    <div class="rightsidecontent">
+
+      <div class="chat">
+        <div class="chatheader">
+          <div id="from">From: <span id="fromclass"></span></div>
+          <div id="todiv"></div>
+          <div id="to">To: <span id="toclass"></span></div>
+
+        </div>
+   <div id="todiv"></div>
+        <div class="chatwindow" id="chatwindow">
+          <ul id="messages">
+
+
+          </ul>
+        </div>
+        <div class="chatfooter">
+          <form id="messageform">
+            <input type="text" placeholder="Enter Message..." id="msg-input"></input>
+            <button onclick="submition()" id="msg-button">Send</button>
+          </form>
+        </div>
+
+      </div>
+
+
+
+    </div>
+    <!--whole body end -->
+  </div>
+
+
+</body>
+
+</html>

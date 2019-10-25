@@ -1,0 +1,433 @@
+* {
+    margin: 0 auto;
+    }
+body {
+  background-color: rgb(155, 209, 196);
+  overflow: hidden;
+}
+.navbar {
+    background-color: rgb(155, 209, 196);
+    height: 100px;
+  
+    
+  }
+
+.rightsidecontent ul li {
+ 
+  font-weight: bold;
+  font-family: fantasy;
+  font-size: 20pt;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 100px;
+  border-radius: 20px;
+}
+.leftside {
+  float: left;
+  margin: 0;
+  }
+.rightside {
+  margin: 0;
+  float: right;
+  }
+.navbar a {
+  color :rgb(73, 161, 139);
+  background-color:  white;
+  padding: 15px;
+  font-size: 20pt;
+  font-weight: bold;
+  font-family: fantasy;
+  border-radius: 20px; 
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  margin-top: 10px;
+
+}.dropbtn {
+  color:black;
+  background-color:white;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20pt;
+  font-weight: bold;
+  font-family: fantasy;
+  border-radius: 20px;
+
+}
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+position: absolute;
+display: none;
+z-index: 1;
+text-decoration: none;
+
+}
+
+.dropdown-content button {
+background-color: rgb(155, 209, 196);
+color: white;
+padding: 10px;
+margin: 0px 10px;
+font-size: 20pt;
+text-decoration: none;
+font-weight: bold;
+font-family: fantasy;
+border-radius: 20px;
+}
+.dropdown-content button:hover {
+  background-color:  rgb(73, 161, 139);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: lightgrey;
+}
+.dropdown:hover .dropbtn {
+  color: white
+}
+
+.logoimage {
+  margin-top: 50%;
+  margin-bottom: 10%;
+  width: 70px;
+  height: 70px;
+
+}
+.leftofmiddle ul {
+  list-style-type: none;
+  }
+  a:link{
+  
+    color: black;
+  }
+  a:visited {
+    color: black;
+  }
+  a:hover {
+    color: rgb(155, 209, 196);
+  }
+  
+  
+.wholebody{
+  margin-top: 10px;
+  background-color: rgb(155, 209, 196);
+  width: 100%;
+  height: 100%;
+ 
+}
+
+
+.leftofmiddle {
+  background-color:rgb(255, 255, 255);
+  float: left;
+  width: 23%;
+  height: 97%;
+  margin-left: 1%;
+  border-radius: 20px;
+  margin-right: 1%;
+  padding-bottom: 5px;
+
+ 
+  
+}
+.leftofmiddle ul{
+padding:0;
+text-align: center;
+
+}
+.leftofmiddle ul li {
+  padding:10;
+  font-weight: bold;
+  font-family: fantasy;
+  font-size: 20pt;
+  
+  }
+
+.rightsidecontent{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-family: fantasy;
+  font-size: 20pt;
+  padding: 20px;
+  height: 92.5%;
+  border-radius: 20px;
+  overflow-y: scroll;
+  margin-right: 1%;
+
+
+}
+
+
+.toppage{
+
+  width: 100%;
+  background-color: rgb(73, 161, 139);
+  overflow: auto;
+}
+
+
+
+.messagewindow{
+  margin: 2%;
+  width: 96%;
+  height: 94%;
+  background-color: white;
+}
+
+
+
+.bottompage{
+
+  width: 100%;
+}
+
+
+.chat {
+background-color: rgb(73, 161, 139);
+width: 90%;
+height: 100%;
+margin-top: 1%;
+margin-bottom: 5px;
+padding: 1%;
+
+}
+
+.chatheader {
+  background-color: white;
+
+  }
+  #from {
+  width: 96%;
+margin:0;
+  padding: 20px;
+  padding-right: 0;
+  }
+  .todiv{
+    width: 100%;
+    height: 1%;
+    
+    background-color:  rgb(73, 161, 139);
+  }
+  #todiv{
+    width: 100%;
+    height: 1%;
+    
+    background-color:  rgb(73, 161, 139);
+  }
+  #to {
+    width: 96%;
+    margin:0;
+    padding: 20px;
+    padding-right: 0;
+    }
+  
+  #from span{
+
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  font-size: 25px;
+
+  }
+ 
+
+  #to span{
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    font-size: 25px;  
+    }
+
+#toclass {
+  font-size: 25px;
+}
+
+.chatwindow {
+
+background-color:  white;
+
+width: 100%;
+height: 68%;
+overflow-y: auto;
+position : relative;
+bottom:0;
+
+
+}
+.chatfooter {
+
+  margin: 0;
+  margin-top: 1px;
+
+  width: 100%;
+  height: 10%;
+  bottom: 0;
+  left:0;
+  overflow: hidden;
+
+}
+
+#msg-button {
+  color: rgb(73, 161, 139);
+  width: 14%;
+  height: 80%;
+  font-size: 22px;
+
+bottom: 0;
+right: 0;
+}
+#checkmessbutton , #deletemessbutton{
+  color: rgb(73, 161, 139);
+  height: 80%;
+  font-size: 22px;
+ border-color: white;
+
+}
+
+#checkmessbutton:hover , #deletemessbutton:hover{
+  cursor: pointer;
+
+
+}
+#msg-input {
+  background-color: white;
+  color: rgb(73, 161, 139);
+  width: 80%;
+  height: 80%;
+  border-radius: 20px;
+  bottom: 0;
+  margin: 10px;
+ left: 0;
+ font-size: 22px;
+  
+}
+#msg-input::placeholder {
+  color: rgb(73, 161, 139);
+}
+.msg {
+  list-style-type: none;
+  
+}
+#messages {
+  padding: 0;
+
+}
+#chatheader span{
+  padding: 10;
+  font-size: 20px;
+  
+  font-family: fantasy;
+  border-radius: 20px;
+  
+}
+
+.chatheader span {
+  background-color: white;
+}
+ span{
+  display: inline-block;
+  background-color: grey;
+  padding: 10;
+
+  font-size: 20px;
+  
+  font-family: fantasy;
+  border-radius: 20px;
+  text-align: left;
+  margin: 5px 5px 5px 10px;
+}
+
+i {
+  font-weight: bold;
+}
+.msg {
+  list-style-type: none;
+ 
+}
+.my {
+text-align: right;
+}
+.my span {
+ background-color: blue;
+  color: white;
+  margin-right: 10px;
+
+}
+.my i {
+  display: none;
+}
+table {
+
+
+  border: 2px solid black;
+ 
+  font-family: fantasy;
+width: 80%;
+
+
+}
+thead{
+
+  font-size: 40px;
+  text-align: center;
+  align-items: center;
+  width: max-content;
+
+
+}
+tbody{
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+th{
+  border: 2px solid black;
+  padding:0;
+width: max-content;
+
+
+}
+
+td {
+  border: 2px solid black;
+  padding-top:10;
+
+}
+
+/* Style the search field */
+.example-text {
+ 
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  background: #f1f1f1;
+  display: inline;
+}
+
+/* Style the submit button */
+.example-button {
+  display: inline;
+  padding-top: 20px;
+  padding-right: 40px;
+  background: #2196F3;
+  color: white;
+
+  font-size: 17px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+.example-button button:hover {
+  background: #0b7dda;
+}
+

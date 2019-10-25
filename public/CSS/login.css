@@ -1,0 +1,114 @@
+* {
+    margin: 0 auto;
+   height: 100%;
+   width: 100%;
+    
+  }
+  body{
+   
+        overflow: hidden;
+  }
+  
+  #registerform {
+    background-color:white;
+    color:rgb(155, 209, 196);
+    padding-top: 40%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15pt;
+    height: 100%;
+  }
+  
+  #loginform {
+    background-color: rgb(155, 209, 196);
+    color: white;
+    padding-top: 40%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15pt;
+    height: 100%;
+  }
+
+  .leftside input{
+    width: 70%;
+    height: 50px;
+    padding-top: 5px;
+  
+    border-radius: 20px;
+    font-size: 18pt;
+    text-align: center;
+    font-family: fantasy;
+   
+    margin: 10px;
+   
+  }
+  .rightside input{
+    width: 70%;
+    height: 50px;
+    padding-top: 5px;
+    background-color: rgb(155, 209, 196);
+    border-radius: 20px;
+    font-size: 18pt;
+    text-align: center;
+    font-family: fantasy;
+   
+    margin: 10px;
+   
+  }
+  
+  input#nameid_register{
+    text-transform: capitalize;
+  }
+  .leftside input::placeholder{
+    color: rgb(73, 161, 139);
+  }
+  .rightside input::placeholder{
+    color: white;
+  }
+  
+  #login {
+    background-color: white;
+    color: rgb(73, 161, 139);
+    width: 300px;
+    height: 50px;
+    font-size: 15pt;
+    font-weight: bold;
+    font-family: fantasy;
+    border-radius: 20px;
+    margin: 10px;
+
+    
+  }
+   #register {
+     background-color: rgb(155, 209, 196);
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-size: 15pt;
+    font-weight: bold;
+    font-family: fantasy;
+    border-radius: 20px;
+    margin: 10px;
+
+    
+  }
+  
+  .leftside {
+    width: 49.9%;
+   float: left;
+   height: 100%;
+  }
+  .divide {
+    background-color: rgb(73, 161, 139);
+    width: .2%;
+    height: 100%;
+    float: left;
+  }
+  .rightside {
+  
+    width: 49.9%;
+    float: right;
+    height: 100%;
+  }
+
+ 

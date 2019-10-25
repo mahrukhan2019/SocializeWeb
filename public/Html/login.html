@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Socialize</title>
+  <link rel="stylesheet" type="text/css" href="/public/CSS/login.css">
+  <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-database.js"></script>
+  <script src="/public/JavaScript/firebase.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="/public/JavaScript/login.js" ></script>
+
+
+</head>
+
+<body>
+  <div class="leftside" >
+  <div id="loginform">
+    <input type="email" name="Email:" placeholder="Email..." id="emailid_login"></input>
+    <br>
+    <input type="password" name="Password:" placeholder="Password..." id="passwordid_login"></input>
+    <br>
+    <button id="login" onclick="loginButton()">Login</button>
+  </div>
+
+</div>
+
+<div class="divide"></div>
+
+<div class="rightside" >
+  <div id="registerform">
+    <input type="text" id="nameid_register" placeholder="name..."></input>
+    <br>
+    <input type="email" name="Email:" placeholder="Email..." id="emailid_register"></input>
+    <br>
+    <input type="password" name="Password:" placeholder="Password..." id="passwordid_register"></input>
+    <br>
+    <button id="register" onclick="registerButton()">Register</button>
+
+  </div>
+ 
+
+</div>
+
+</body>
+
+</html>
